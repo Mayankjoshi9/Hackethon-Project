@@ -1,8 +1,8 @@
-
+import transition from '../transition.jsx'
 const SkillDevelopment = () => {
   return (
     <div>SkillDevelopment</div>
   )
 }
 
-export default SkillDevelopment
+export default transition(SkillDevelopment);
