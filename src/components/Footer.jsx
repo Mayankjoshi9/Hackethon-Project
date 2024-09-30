@@ -4,8 +4,8 @@ import { faFacebook, faTwitter, faLinkedin, faInstagram } from '@fortawesome/fre
 
 const Footer = () => {
   return (
-    <footer className="bg-blue-900 text-white py-10">
-      <div className="container mx-auto px-4">
+    <footer className= "w-full bg-gray-800 text-white py-10 px-[150px] flex justify-center items-center">
+      <div className="container mx-auto px-10">
         <div className="flex flex-col md:flex-row justify-between items-start space-y-6 md:space-y-0">
           {/* About / Motto */}
           <div className="md:w-1/3">
@@ -16,7 +16,7 @@ const Footer = () => {
           </div>
 
           {/* Contact Information */}
-          <div className="md:w-1/3">
+          <div className="md:w-1/3 px-10">
             <h3 className="text-xl font-bold mb-4">Contact Us</h3>
             <p className="text-gray-300">Email:</p>
             <ul>
@@ -31,7 +31,7 @@ const Footer = () => {
           </div>
 
           {/* Social Media Links */}
-          <div className="md:w-1/3">
+          <div className="md:w-1/3 px-10">
             <h3 className="text-xl font-bold mb-4">Follow Us</h3>
             <div className="flex space-x-6">
               <a

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import  { useEffect } from 'react';
 import './Preloader.css';
 import { preLoaderAnim } from '../Animation/index.js';
 

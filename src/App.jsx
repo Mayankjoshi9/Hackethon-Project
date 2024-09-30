@@ -6,11 +6,14 @@ import About from './pages/About';
 import SkillDevelopment from './pages/SkillDevelopment';
 import Events from './pages/Events';
 import Resources from './pages/Resources';
+import NavBar from './components/NavBar';
+
 
 function App() {
   return (
-    <div className="w-screen min-h-screen flex flex-col ">
-      
+    <div className="w-screen min-h-screen flex flex-col overflow-hidden">
+      <NavBar/>
+        
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
