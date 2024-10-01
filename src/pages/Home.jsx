@@ -6,10 +6,10 @@ import Preloader from './Preloader.jsx';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-
 // Import your images
 import mentorshipImage from '../assets/mentorshipImage.png';
 // Import other images as necessary
+import transition from '../transition.jsx'//imported transition ans applied to all the pages 
 
 const Home = () => {
     const settings = {

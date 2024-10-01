@@ -1,2 +1,22 @@
+/* App.css */
+.slide-in {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    transform-origin: top; /* Change this to top for sliding in */
+    transform: translateY(-100%); /* Start above the screen */
+}
 
- 
+.slide-out {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    transform-origin: bottom; /* Change this to bottom for sliding out */
+    transform: translateY(0); /* Start at the top */
+}

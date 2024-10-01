@@ -1,8 +1,8 @@
-
+import transition from '../transition.jsx'
 const Events = () => {
   return (
     <div>Events</div>
   )
 }
 
-export default Events
+export default transition(Events);
