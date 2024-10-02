@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Route, Routes, useLocation } from 'react-router-dom'; 
 import Home from './pages/Home';
 import About from './pages/About';
@@ -15,7 +15,7 @@ function App() {
 
   return (
     <>
-      <div className="w-screen min-h-screen flex flex-col overflow-hidden">
+      <div className="w-full min-h-screen flex flex-col overflow-x-hidden bg-gray-900">
         <NavBar />
         <CircleEffect /> 
 

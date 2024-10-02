@@ -24,18 +24,11 @@ const transition = (OgComponent) => {
                         exit={{ y: "-100%" }} // Exit upwards
                         transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }} // Reduced duration for slide-in
                         onExitComplete={handleExitComplete} // Handle exit complete
+                        style={{ background: 'transparent' }} // Set background to transparent
                     >
                         <OgComponent />
                     </motion.div>
                 )}
-                <motion.div 
-                    className='slide-out'
-                    initial={{ y: "0%" }} // Start at the original position
-                    animate={{ y: "100%" }} // Move downwards
-                    exit={{ y: "0%" }} // Return to the original position before exiting
-                    transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }} // Reduced duration for slide-out
-                    onAnimationComplete={handleExitComplete} // Handle animation complete
-                />
             </>
         );
     };

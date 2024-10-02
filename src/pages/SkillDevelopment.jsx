@@ -1,8 +1,11 @@
 import transition from '../transition.jsx'
 const SkillDevelopment = () => {
   return (
-    <div>SkillDevelopment</div>
+   
+   <div></div>
   )
-}
+};
 
 export default transition(SkillDevelopment);
+
+     

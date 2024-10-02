@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import tbiLogo from '../assets/tbi-logo.png';  // Import your logo
+import logo from '../assets/logo.png';  // Import your logo
 
 const NavBar = () => {
   return (
@@ -7,7 +7,7 @@ const NavBar = () => {
       <div className="flex items-center justify-center h-20 relative">
         {/* Logo fixed to the left */}
         <div className="absolute left-5">
-          <img src={tbiLogo} alt="TBI Logo" className="h-12" />  {/* Adjust logo height */}
+          <img src={logo} alt="TBI Logo" className="h-12" />  {/* Adjust logo height */}
         </div>
 
         {/* Elliptical box for navigation links */}
@@ -24,12 +24,12 @@ const NavBar = () => {
           >
             About
           </Link>
-          <Link 
+          {/* <Link 
             to="/skill-development" 
             className="text-gray-300 font-medium text-lg hover:text-yellow-400 transition-colors"
           >
             Skill Development
-          </Link>
+          </Link> */}
           <Link 
             to="/events" 
             className="text-gray-300 font-medium text-lg hover:text-yellow-400 transition-colors"
